@@ -1,0 +1,25 @@
+.app {
+  min-height: 100vh;
+}
+
+.container{
+  margin:0px;
+  padding:0px;
+}
+
+.header{
+  padding:10px;
+  margin:10px;
+  height:155px;
+}
+.search-contact{
+  width:90%;
+  border-radius: 5px;
+  border: 2px solid lightgrey;
+}
+.addContact{
+  margin-left: 25px;
+  border-radius: 25px;
+}
+
+
