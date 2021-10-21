@@ -24,7 +24,6 @@ export class AppComponent {
   company = '';
   contactCount = 0;
 
-  allContact: Contact[] = new Array<Contact>();
 
   temporaryContact(): Contact {
     return new Contact(
@@ -42,7 +41,6 @@ export class AppComponent {
 
   public getAllContact(): void {
     this.contactsMap.forEach((element) => {
-      this.allContact.push(...element);
     });
   }
 
